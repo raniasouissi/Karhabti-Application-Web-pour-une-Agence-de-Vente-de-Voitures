@@ -8,7 +8,6 @@ Les fonctionnalités du frontend n'ont pas été complètement implémentées en
 ## Aperçu de l'application
 
 ### Page d'accueil
-Page d'accueil avec un aperçu des véhicules disponibles.
 
 ![Page d'accueil](assets/home.png)
 
