@@ -1,55 +1,53 @@
-# Karhabti - Application Web pour une Agence de Vente de Voitures
+# Karhabti - Web Application for a Car Sales Agency
 
-**Karhabti** est une application web complète pour la gestion d'une agence de vente de voitures. Ce projet comprend des fonctionnalités telles que l'authentification des utilisateurs, la gestion des véhicules à vendre, et l'administration des commandes. L'application a été développée en utilisant **NestJS** pour le backend et **AngularJS** pour le frontend. 
+**Karhabti** is a comprehensive web application for managing a car sales agency. This project includes features such as user authentication, vehicle management for sale, and order administration. The application was developed using **NestJS** for the backend and **AngularJS** for the frontend.
 
-Les fonctionnalités du frontend n'ont pas été complètement implémentées en raison de contraintes de temps, mais l'application est fonctionnelle du côté backend et inclut des fonctionnalités telles que l'inscription, la connexion, la gestion des utilisateurs, et l'authentification JWT.
+Due to time constraints, the frontend features were not fully implemented, but the backend side of the application is functional and includes features such as registration, login, user management, and JWT authentication.
 
+## Application Overview
 
-## Aperçu de l'application
+### Home Page
 
-### Page d'accueil
+![Home Page](assets/home.png)
 
-![Page d'accueil](assets/home.png)
+### Login Page  
+A login page allowing users to authenticate.
 
-### Page de Connexion
-Page de connexion permettant aux utilisateurs de s'authentifier.
+![Login Page](assets/login.png)
 
-![Page de Connexion](assets/login.png)
+### Registration Page  
+A registration page for new users.
 
-### Page d'Inscription
-Page d'inscription pour les nouveaux utilisateurs.
+![Registration Page](assets/register.png)
 
-![Page d'Inscription](assets/register.png)
+### Forgot Password  
+A page allowing users to recover their password.
 
-### Mot de Passe Oublié
-Page permettant aux utilisateurs de récupérer leur mot de passe.
-
-![Mot de Passe Oublié](assets/forg.png)
-
-
+![Forgot Password](assets/forg.png)
 
 ---
 
-## Fonctionnalités
+## Features
 
-- **Backend complet** avec NestJS : gestion des utilisateurs, gestion des véhicules, gestion des commandes, et plus encore.
-- **Frontend partiel** avec AngularJS : implémentation des pages d'inscription, de connexion, de mot de passe oublié et de gestion des utilisateurs.
-- **Authentification sécurisée** avec **JWT** (JSON Web Token) pour une gestion des sessions sécurisée.
-- **Emails de récupération de mot de passe** via **Mailtrap**.
+- **Complete backend** with NestJS: user management, vehicle management, order management, and more.
+- **Partial frontend** with AngularJS: implementation of registration, login, forgot password, and user management pages.
+- **Secure authentication** with **JWT** (JSON Web Token) for secure session management.
+- **Password recovery emails** via **Mailtrap**.
 
-## Technologies utilisées
+## Technologies Used
 
-- **Backend** : NestJS
-- **Frontend** : AngularJS
-- **Base de données** : MongoDB
-- **Authentification** : JWT
-- **Emailing** : Mailtrap (pour la gestion des emails)
+- **Backend**: NestJS
+- **Frontend**: AngularJS
+- **Database**: MongoDB
+- **Authentication**: JWT
+- **Emailing**: Mailtrap (for email management)
 
 ---
 
 ## Installation
 
 ### Backend
-1. Clonez le projet :
+1. Clone the project:
    ```bash
    git clone https://github.com/raniasouissi/Karhabti-Application-Web-pour-une-Agence-de-Vente-de-Voitures.git
+
